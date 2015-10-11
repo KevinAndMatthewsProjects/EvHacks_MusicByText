@@ -1,5 +1,5 @@
 # EvHacks MusicByText
-The code for the winning EVHS hackathon product, "Music on demand by text"
+Winner at EVHacks 2015 for Most Technical Hack
 
 #How to get working on your computer
 
