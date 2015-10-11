@@ -169,7 +169,7 @@ public class Server {
  public static int getDuration(String song) {
 	 return (int) (Math.random() * 10 + 10);
  }
- 
+ //Automated mouse to click on link to Youtube
  public static void bot() throws InterruptedException {
 
 	 Thread.sleep(1000);
