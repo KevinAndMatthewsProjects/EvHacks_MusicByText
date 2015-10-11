@@ -1,7 +1,7 @@
 import java.awt.MouseInfo;
+import java.awt.Point;
 import java.awt.Robot;
 import java.awt.event.InputEvent;
-import java.awt.event.MouseEvent;
 import java.io.InputStreamReader;
 import java.io.Reader;
 import java.net.URL;
@@ -12,8 +12,6 @@ import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
 
 import com.google.gson.Gson;
-import com.kevin.graphics.canvas.Bitmap;
-import com.kevin.graphics.canvas.CanvasDisplay;
 import com.twilio.sdk.*; 
 import com.twilio.sdk.resource.factory.*; 
 import com.twilio.sdk.resource.instance.*; 
@@ -62,6 +60,10 @@ public class Server {
  	
   	robot = new Robot();
     while(true) {
+    	
+    	
+    	//printMouse(); 					// Remove or add this
+    	
     	list = client.getAccount().getMessages();
   
     	text.clear();
@@ -172,15 +174,21 @@ public class Server {
 
 	 Thread.sleep(1000);
 	
-	robot.mouseMove(490, 752);
+	robot.mouseMove(490, 752); // insert cords 1 here
 	 Thread.sleep(1000);
 	robot.mousePress(InputEvent.BUTTON1_MASK);
 	robot.mouseRelease(InputEvent.BUTTON1_MASK);
 	Thread.sleep(1000);
-	robot.mouseMove(601, 593);
+	robot.mouseMove(601, 593);  // insert cords 2 here
 	 Thread.sleep(1000);
 	robot.mousePress(InputEvent.BUTTON1_MASK);
 	robot.mouseRelease(InputEvent.BUTTON1_MASK);
+ }
+ 
+ public static void printMouse() {
+	 Point p = MouseInfo.getPointerInfo().getLocation();
+	 
+	 System.out.println(p.toString());
  }
  
 
