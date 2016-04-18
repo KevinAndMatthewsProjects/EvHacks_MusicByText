@@ -1,6 +1,14 @@
 # EvHacks MusicByText
 Winner at EVHacks 2015 for Most Technical Hack
 
+Team Members:
+
+Kevin Palani - Frontend Development (Twilio API, Ruby Server)
+Matthew Pham - Backend Development (GoogleSearch API, YoutubePlay)
+Draco Li - Research
+Larry Qu - Research
+Richard Huang - Inspiration
+
 #How to get working on your computer
 
 1) Download the src file, and save the .java files to your desktop
