@@ -1,5 +1,17 @@
 # EvHacks MusicByText
-The code for the winning EVHS hackathon product, "Music on demand by text"
+Winner at EVHacks 2015 for Most Technical Hack
+
+Team Members:
+
+Kevin Palani - Frontend Development (Twilio API, Ruby Server)
+
+Matthew Pham - Backend Development (GoogleSearch API, YoutubePlay)
+
+Draco Li - Research
+
+Larry Qu - Research
+
+Richard Huang - Inspiration
 
 #How to get working on your computer
 
